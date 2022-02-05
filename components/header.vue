@@ -1,6 +1,6 @@
 <template>
   <div id="headermainbox">
-    <img src="@/assets/Logo.png" class="logoimg">
+    <img src="@/assets/Logow.png" class="logoimg">
 
     <ul id="headerulbox">
       <div class="ulbox">
@@ -8,7 +8,13 @@
         <p class="headerlitilte">랭킹</p>
         <p class="headerlitilte">커뮤니티</p>
         <p class="headerlitilte">고객지원</p>
-        <button class="gogame">게임 실행</button>
+        <div class="buttonbox">
+          <div class="buttonline1"></div>
+          <div class="buttonline2"></div>
+          <div class="buttonline3"></div>
+          <div class="buttonline4"></div>
+          <button class="gogame">게임 실행</button>
+        </div>
       </div>
 
       <div class="libox">
@@ -35,14 +41,7 @@
           <li><NuxtLink to="/" class="lilink">문의 하기</NuxtLink></li>
           <li><NuxtLink to="/" class="lilink">신고 하기</NuxtLink></li>
         </ul>
-
-          <ul class="tilteulbox">
-
-          </ul>
-
       </div>
-
-
     </ul>
 
   </div>

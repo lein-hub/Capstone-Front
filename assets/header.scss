@@ -11,8 +11,8 @@
   min-width: 1200px;
 
   .logoimg{
-    width: 200px;
-    border: 3px solid rgb(255, 255, 255);
+    width: 180px;
+//    border: 3px solid rgb(255, 255, 255);
     position: absolute;
     left: 75px;
     top: 10px;
@@ -45,18 +45,85 @@
         line-height: 100px;
         }
 
-      .gogame{
-        width: 200px;
-        height: 60px;
-        color: white;
-        border-radius: 10px;
-        margin: auto 75px auto auto;
-        border: 3px solid rgb(255, 255, 255);
-        &:hover{
-          color: black;
-          background-color: white;
+        .buttonbox{
+          min-width: 190px;
+          height: 70px;
+          margin: auto 75px auto auto;
+          //border: 3px solid rgb(255, 255, 255);
+          display: flex;
+          justify-content: center;
+          position: relative;
+
+          .gogame{
+            margin: auto 0;
+            width: 160px;
+            height: 40px;
+            font-size: 1.3rem;
+            color: white;
+            border: 3px solid rgb(255, 255, 255);
+            &:active{
+              width: 155px;
+              height: 35px;
+            }
+          }
+
+          .buttonline1{
+            width: 30px;
+            height: 3px;
+            top: 5px;
+            left: 5px;
+            position: absolute;
+            background-color: #fff;
+          }
+          .buttonline2{
+            width: 4px;
+            height: 25px;
+            top: 5px;
+            left: 5px;
+            position: absolute;
+            background-color: #fff;
+          }
+          .buttonline3{
+            width: 30px;
+            height: 3px;
+            bottom: 5px;
+            right: 5px;
+            position: absolute;
+            background-color: #fff;
+          }
+          .buttonline4{
+            width: 3px;
+            height: 25px;
+            bottom: 5px;
+            right: 5px;
+            position: absolute;
+            background-color: #fff;
+          }
+
+
+          &:hover{
+            .gogame{
+            color: black;
+            background-color: white;
+            }
+            .buttonline1{
+              animation: buttonlinew 0.3s;
+              animation-fill-mode: forwards;
+            }
+            .buttonline3{
+              animation: buttonlinew 0.3s;
+              animation-fill-mode: forwards;
+            }
+            .buttonline2{
+              animation: buttonlineh 0.3s;
+              animation-fill-mode: forwards;
+            }
+            .buttonline4{
+              animation: buttonlineh 0.3s;
+              animation-fill-mode: forwards;
+            }
+          }
         }
-      }
 
       }
 
@@ -87,16 +154,16 @@
 
     &:hover{
       .libox{
-        animation: headerul 1s;
+        animation: headerul 0.3s;
         animation-fill-mode: forwards;
         display: inline-flex;
 
         .lilink{
           color: white;
-          animation: headerulcolor 1s;
+          animation: headerulcolor 0.3s;
           animation-fill-mode: forwards;
           &:hover{
-            color: red;
+            color: orange;
 
           }
         }
@@ -114,16 +181,31 @@
     top: -100px;
   }
 	100%{
-    background-color: rgba(94, 94, 94, 0.863);
+    background-color: rgba(0, 0, 0, 0.918);
     top: 100px;
   }
 	}
 
-    @keyframes headerulcolor{
-      0%{
-        opacity: 0;
-      }
-      100%{
-        opacity: 1;
-      }
-      }
+@keyframes headerulcolor{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  }
+
+@keyframes buttonlinew{
+  0%{
+  }
+  100%{
+    width: 120px;
+  }
+  }
+  @keyframes buttonlineh{
+    0%{
+    }
+    100%{
+      height: 35px;
+    }
+    }

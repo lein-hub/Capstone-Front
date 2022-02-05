@@ -1,8 +1,6 @@
 <template>
     <div class="testbox">
-
       <profile/>
-
     </div>
 </template>
 
@@ -35,7 +33,7 @@ export default {
   height: 500px;
   border: 3px solid black;
   margin: 0 auto;
-  height: 800px;
+  height: 500px;
   margin-top: 150px;
 }
 </style>
