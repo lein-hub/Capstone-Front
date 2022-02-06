@@ -28,12 +28,10 @@ export default {
 
 <style lang="scss" scoped>
 .testbox{
-  width: 90%;
+  width: 100%;
   text-align: center;
-  height: 500px;
+  height: 100%;
   border: 3px solid black;
-  margin: 0 auto;
-  height: 500px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 </style>

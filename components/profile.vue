@@ -1,5 +1,7 @@
 <template>
-  <div class="profilebox">
+  <div class="fullfile">
+
+    <div class="profilebox">
 
     <div class="profile1">
       <img src="@/assets/test.jpg" class="profileimg">
@@ -18,6 +20,7 @@
         <NuxtLink to="/" class="linkpage">My페이지</NuxtLink>
       </button>
     </div>
+    </div>
 
     <div class="profile4" v-if="show1">
       <p>친구</p>
@@ -26,8 +29,8 @@
     <div class="profile5" v-if="show2">
       <p>알림</p>
     </div>
-
   </div>
+
 </template>
 
 <script>
