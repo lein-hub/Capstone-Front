@@ -30,7 +30,7 @@ export default {
 .testbox{
   width: 100%;
   text-align: center;
-  height: 100%;
+  height: 1000px;
   border: 3px solid black;
   margin-top: 100px;
 }

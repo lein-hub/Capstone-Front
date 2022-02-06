@@ -8,9 +8,10 @@
     </div>
 
     <div class="profile2">
-      <button>로그아웃</button>
-      <p>Lv.30 Mirai님</p>
-      <p>덤벼라마!</p>
+      <button class="userlink">로그아웃</button>
+      <button class="userlink">My페이지</button>
+      <p class="username">Lv.30 Mirai님</p>
+      <p class="usertext">Mirai1412/Capstone-Front</p>
     </div>
 
     <div class="profile3">
