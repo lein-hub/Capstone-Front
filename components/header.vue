@@ -1,6 +1,6 @@
 <template>
   <div id="headermainbox">
-    <img src="@/assets/Logow.png" class="logoimg">
+    <img src="@/assets/pageimg/Logow.png" class="logoimg">
 
     <ul id="headerulbox">
       <div class="ulbox">

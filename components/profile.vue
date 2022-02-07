@@ -4,7 +4,7 @@
     <div class="profilebox">
 
     <div class="profile1">
-      <img src="@/assets/test.jpg" class="profileimg">
+      <img src="@/assets/pageimg/test.jpg" class="profileimg">
     </div>
 
     <div class="profile2">

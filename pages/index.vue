@@ -33,5 +33,6 @@ export default {
   height: 1000px;
   border: 3px solid black;
   margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.829);
 }
 </style>
