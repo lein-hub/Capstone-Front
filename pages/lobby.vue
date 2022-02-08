@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="gameBox">
+  <div class="lobbyBox">
     <profile></profile>
   </div>
 </template>
@@ -13,5 +13,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~assets/game.scss";
+@import "~assets/lobby.scss";
 </style>
